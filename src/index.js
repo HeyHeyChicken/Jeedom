@@ -8,7 +8,11 @@ class Jeedom extends LIBRARIES.Skill {
     const SELF = this;
 
     this.Main.Manager.addAction("Jeedom.on", function(_intent, _socket){
-      console.log(_intent);
+      SELF.Main.HTTPSJsonGet(_settings.jeedomIP, "/core/api/jeeApi.php?apikey=" + _settings.jeedomToken + "&type=fullData", function(items){
+        for(let index = 0; index < items.length; index++){
+          console.log(items.name);
+        }
+      });
     });
   }
 }
