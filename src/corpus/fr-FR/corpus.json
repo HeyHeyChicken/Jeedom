@@ -17,7 +17,17 @@
         "Allume la {target|0} du {zone|0}",
         "Allume le {target|0} du {zone|0}",
         "Allume l'{target|0} du {zone|0}",
-        "Allume {target|0} du {zone|0}"
+        "Allume {target|0} du {zone|0}",
+
+        "Allume la {target|0} de l'{zone|0}",
+        "Allume le {target|0} de l'{zone|0}",
+        "Allume l'{target|0} de l'{zone|0}",
+        "Allume {target|0} de l'{zone|0}",
+
+        "Allume la {target|0}",
+        "Allume le {target|0}",
+        "Allume l'{target|0}",
+        "Allume {target|0}"
       ],
       "answers": [
       ]
