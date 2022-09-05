@@ -31,6 +31,37 @@
       ],
       "answers": [
       ]
+    },
+    {
+      "intent": "Jeedom.off",
+      "utterances": [
+        "Éteins la {target|0} des {zone|0}",
+        "Éteins le {target|0} des {zone|0}",
+        "Éteins l'{target|0} des {zone|0}",
+        "Éteins {target|0} des {zone|0}",
+
+        "Éteins la {target|0} de la {zone|0}",
+        "Éteins le {target|0} de la {zone|0}",
+        "Éteins l'{target|0} de la {zone|0}",
+        "Éteins {target|0} de la {zone|0}",
+
+        "Éteins la {target|0} du {zone|0}",
+        "Éteins le {target|0} du {zone|0}",
+        "Éteins l'{target|0} du {zone|0}",
+        "Éteins {target|0} du {zone|0}",
+
+        "Éteins la {target|0} de l'{zone|0}",
+        "Éteins le {target|0} de l'{zone|0}",
+        "Éteins l'{target|0} de l'{zone|0}",
+        "Éteins {target|0} de l'{zone|0}",
+
+        "Éteins la {target|0}",
+        "Éteins le {target|0}",
+        "Éteins l'{target|0}",
+        "Éteins {target|0}"
+      ],
+      "answers": [
+      ]
     }
   ]
 }
