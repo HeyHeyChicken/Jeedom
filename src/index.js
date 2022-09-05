@@ -41,7 +41,7 @@ class Jeedom extends LIBRARIES.Skill {
           if(ROOM.name.includes(" " + _intent.Variables.zone.toLowerCase() + " ")){
             for(const objectIndex in ROOM.eqLogics){
               const OBJECT = ROOM.eqLogics[objectIndex];
-              if(OBJECT.name.toLowerCase() == _intent.Variables.target.toLowerCase()){
+              if(OBJECT.name.toLowerCase().includes(_intent.Variables.target.toLowerCase())){
                 for(const cmdIndex in OBJECT.cmds){
                   const CMD = OBJECT.cmds[cmdIndex];
                   CMD.name = " " + (CMD.name == null ? "" : CMD.name.toLowerCase()) + " ";
