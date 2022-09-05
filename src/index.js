@@ -9,8 +9,14 @@ class Jeedom extends LIBRARIES.Skill {
 
     this.Main.Manager.addAction("Jeedom.on", function(_intent, _socket){
       SELF.Main.HTTPSJsonGet(_settings.jeedomIP, "/core/api/jeeApi.php?apikey=" + _settings.jeedomToken + "&type=fullData", function(items){
-        for(let index = 0; index < items.length; index++){
-          console.log(items.name);
+        console.log(items);
+        if(items != null){
+          for(let index = 0; index < items.length; index++){
+            console.log(items.name);
+          }
+        }
+        else{
+          SELF.Main.Log("Error", "red");
         }
       });
     });
