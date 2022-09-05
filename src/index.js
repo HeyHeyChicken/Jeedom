@@ -23,7 +23,7 @@ class Jeedom extends LIBRARIES.Skill {
     if(_intent.Variables.zone == undefined){
       _intent.Variables.zone = "";
     }
-    SELF.Main.HTTPSJsonGet(_settings.jeedomIP, "/core/api/jeeApi.php?apikey=" + _settings.jeedomToken + "&type=fullData", function(rooms){
+    SELF.Main.HTTPSJsonGet(SELF.Settings.jeedomIP, "/core/api/jeeApi.php?apikey=" + SELF.Settings.jeedomToken + "&type=fullData", function(rooms){
       if(rooms != null){
         for(const roomIndex in rooms){
           const ROOM = rooms[roomIndex];
@@ -44,7 +44,7 @@ class Jeedom extends LIBRARIES.Skill {
                   CMD.generic_type = CMD.generic_type.replace("-", " ");
 
                   if(CMD.name.includes(_code) || CMD.generic_type.includes(_code)){
-                    SELF.Main.HTTPSJsonGet(_settings.jeedomIP, "/core/api/jeeApi.php?apikey=" + _settings.jeedomToken + "&type=cmd&id=" + CMD.id);
+                    SELF.Main.HTTPSJsonGet(SELF.Settings.jeedomIP, "/core/api/jeeApi.php?apikey=" + SELF.Settings.jeedomToken + "&type=cmd&id=" + CMD.id);
                   }
                 }
               }
