@@ -1,6 +1,6 @@
 {
   "Settings": {
-    "jeedomIP": "http://192.168.1.2",
-    "jeedomToken": "F807VTHDpfW2ymOJfdH7XTDEbVZhLvHnwsJyK6kfhj41usFc7i4Zp3GMWADxi8th"
+    "jeedomIP": "http://127.0.0.1",
+    "jeedomToken": ""
   }
 }
