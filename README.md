@@ -2,7 +2,7 @@
 <img src="https://github.com/HeyHeyChicken/NOVA/blob/master/resources/github-logo.svg" alt="NOVA" width="300">
 
 **NOVA - Blank Skill** is a skill for your [NOVA](//github.com/HeyHeyChicken/NOVA) assistant.<br>
-This skill is useless, except to provide you an architecture as an example to start your skills development.
+This skill allows you to control your devices on your Jeedom.
 </div>
 
 <br>
