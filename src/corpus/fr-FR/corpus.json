@@ -4,20 +4,20 @@
     {
       "intent": "Jeedom.on",
       "utterances": [
-        "Allume la {target} des {zone}",
-        "Allume le {target} des {zone}",
-        "Allume l'{target} des {zone}",
-        "Allume {target} des {zone}",
+        "Allume la {target|0} des {zone|0}",
+        "Allume le {target|0} des {zone|0}",
+        "Allume l'{target|0} des {zone|0}",
+        "Allume {target|0} des {zone|0}",
 
-        "Allume la {target} de la {zone}",
-        "Allume le {target} de la {zone}",
-        "Allume l'{target} de la {zone}",
-        "Allume {target} de la {zone}",
+        "Allume la {target|0} de la {zone|0}",
+        "Allume le {target|0} de la {zone|0}",
+        "Allume l'{target|0} de la {zone|0}",
+        "Allume {target|0} de la {zone|0}",
 
-        "Allume la {target} du {zone}",
-        "Allume le {target} du {zone}",
-        "Allume l'{target} du {zone}",
-        "Allume {target} du {zone}"
+        "Allume la {target|0} du {zone|0}",
+        "Allume le {target|0} du {zone|0}",
+        "Allume l'{target|0} du {zone|0}",
+        "Allume {target|0} du {zone|0}"
       ],
       "answers": [
       ]
