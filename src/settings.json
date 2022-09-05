@@ -1,3 +1,6 @@
 {
-  "Here you can add all settings you need for your skill": "like API key, etc ..."
+  "Settings": {
+    "jeedomIP": "http://192.168.1.2",
+    "jeedomToken": "F807VTHDpfW2ymOJfdH7XTDEbVZhLvHnwsJyK6kfhj41usFc7i4Zp3GMWADxi8th"
+  }
 }

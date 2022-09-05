@@ -1,14 +1,10 @@
 {
-	"worksOffline" : false,
+	"worksOffline" : true,
 	"description" : {
-		"fr-FR": "Une description en français.",
-		"en-US": "A description in english."
+		"fr-FR": "Cette compétence vous permet de contrôler vos appareils présents sur votre Jeedom.",
+		"en-US": "This skill allows you to control your devices on your Jeedom."
 	},
 	"language": [
-		"fr-FR",
-		"en-US",
-		"es-ES",
-		"it-IT",
-		"de-DE"
+		"fr-FR"
 	]
 }

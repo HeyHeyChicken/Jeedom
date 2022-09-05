@@ -2,10 +2,12 @@ const LIBRARIES = {
   Skill: require("../../../Libraries/Skill")
 };
 
-class Facebook extends LIBRARIES.Skill {
+class Jeedom extends LIBRARIES.Skill {
   constructor(_main, _settings) {
     super(_main, _settings);
     const SELF = this;
+
+    console.log(_settings);
 
     this.Main.Manager.addAction("Facebook.post", function(_intent, _socket){
       // Here you will add an action when the user want to post anything on Facebook.
@@ -14,4 +16,4 @@ class Facebook extends LIBRARIES.Skill {
   }
 }
 
-module.exports = Facebook;
+module.exports = Jeedom;
