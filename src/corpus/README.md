@@ -1,0 +1,1 @@
+Here you can add the way to call your different actions, and the possible voice responses (you can not put voice responses). Look at the example in French :)

@@ -1,0 +1,19 @@
+{
+  "name": "nova-blank-skill",
+  "version": "1.0.0",
+  "description": "This skill is useless, except to provide you an architecture as an example to start your skills development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeyHeyChicken/NOVA-Blank-Skill.git"
+  },
+  "author": "Antoine Duval",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "bugs": {
+    "url": "https://github.com/HeyHeyChicken/NOVA-Blank-Skill/issues"
+  },
+  "homepage": "https://github.com/HeyHeyChicken/NOVA-Blank-Skill#readme"
+}

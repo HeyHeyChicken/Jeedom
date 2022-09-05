@@ -1,0 +1,15 @@
+{
+  "name": "TheNameOfMyIntent (like 'Facebook')",
+  "data": [
+    {
+      "intent": "TheNameOfYourAction (like 'Facebook.post')",
+      "utterances": [
+        "Écris sur Facebook {text|0}",
+        "Peux tu poster sur Facebook la phrase {text|0}"
+      ],
+      "answers": [
+        "Très bien, j'ai publié : %text%."
+      ]
+    }
+  ]
+}
