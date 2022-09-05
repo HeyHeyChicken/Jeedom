@@ -15,6 +15,14 @@ class Jeedom extends LIBRARIES.Skill {
     SELF.Main.Manager.addAction("Jeedom.off", function(_intent, _socket){
       SELF.Action("off", _intent, _socket);
     });
+
+    SELF.Main.Manager.addAction("Jeedom.open", function(_intent, _socket){
+      SELF.Action("open", _intent, _socket);
+    });
+
+    SELF.Main.Manager.addAction("Jeedom.close", function(_intent, _socket){
+      SELF.Action("close", _intent, _socket);
+    });
   }
 
   Action(_code, _intent, _socket){

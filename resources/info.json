@@ -2,7 +2,7 @@
 	"worksOffline" : true,
 	"description" : {
 		"fr-FR": "Cette compétence vous permet de contrôler vos appareils présents sur votre Jeedom.<br/><ul><li>Allumer</li><li>Éteindre</li></ul>",
-		"en-US": "This skill allows you to control your devices on your Jeedom."
+		"en-US": "This skill allows you to control your devices on your Jeedom.<br/><ul><li>Turn on</li><li>Turn off</li></ul>"
 	},
 	"language": [
 		"fr-FR"

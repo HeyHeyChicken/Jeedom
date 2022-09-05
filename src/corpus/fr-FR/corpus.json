@@ -62,6 +62,68 @@
       ],
       "answers": [
       ]
+    },
+    {
+      "intent": "Jeedom.open",
+      "utterances": [
+        "Ouvre la {target|0} des {zone|0}",
+        "Ouvre le {target|0} des {zone|0}",
+        "Ouvre l'{target|0} des {zone|0}",
+        "Ouvre {target|0} des {zone|0}",
+
+        "Ouvre la {target|0} de la {zone|0}",
+        "Ouvre le {target|0} de la {zone|0}",
+        "Ouvre l'{target|0} de la {zone|0}",
+        "Ouvre {target|0} de la {zone|0}",
+
+        "Ouvre la {target|0} du {zone|0}",
+        "Ouvre le {target|0} du {zone|0}",
+        "Ouvre l'{target|0} du {zone|0}",
+        "Ouvre {target|0} du {zone|0}",
+
+        "Ouvre la {target|0} de l'{zone|0}",
+        "Ouvre le {target|0} de l'{zone|0}",
+        "Ouvre l'{target|0} de l'{zone|0}",
+        "Ouvre {target|0} de l'{zone|0}",
+
+        "Ouvre la {target|0}",
+        "Ouvre le {target|0}",
+        "Ouvre l'{target|0}",
+        "Ouvre {target|0}"
+      ],
+      "answers": [
+      ]
+    },
+    {
+      "intent": "Jeedom.close",
+      "utterances": [
+        "Ferme la {target|0} des {zone|0}",
+        "Ferme le {target|0} des {zone|0}",
+        "Ferme l'{target|0} des {zone|0}",
+        "Ferme {target|0} des {zone|0}",
+
+        "Ferme la {target|0} de la {zone|0}",
+        "Ferme le {target|0} de la {zone|0}",
+        "Ferme l'{target|0} de la {zone|0}",
+        "Ferme {target|0} de la {zone|0}",
+
+        "Ferme la {target|0} du {zone|0}",
+        "Ferme le {target|0} du {zone|0}",
+        "Ferme l'{target|0} du {zone|0}",
+        "Ferme {target|0} du {zone|0}",
+
+        "Ferme la {target|0} de l'{zone|0}",
+        "Ferme le {target|0} de l'{zone|0}",
+        "Ferme l'{target|0} de l'{zone|0}",
+        "Ferme {target|0} de l'{zone|0}",
+
+        "Ferme la {target|0}",
+        "Ferme le {target|0}",
+        "Ferme l'{target|0}",
+        "Ferme {target|0}"
+      ],
+      "answers": [
+      ]
     }
   ]
 }
